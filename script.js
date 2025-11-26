@@ -24,17 +24,17 @@ const teams = {
     },
     redbull: {
         fullName: "Oracle Red Bull Racing",
-        logo: "images/redbull.jpg",
+        logo: "images/redbull.png",
         primaryColor: "#3671C6"
     },
     ferrari: {
         fullName: "Scuderia Ferrari",
-        logo: "images/ferrari.webp",
+        logo: "images/ferrari.png",
         primaryColor: "#DC0000"
     },
     mclaren: {
         fullName: "McLaren F1 Team",
-        logo: "images/mclaren.jpg",
+        logo: "images/mclaren.png",
         primaryColor: "#FF8000"
     },
     alpine: {
@@ -43,8 +43,8 @@ const teams = {
         primaryColor: "#0090FF"
     },
     astonmartin: {
-        fullName: "Aston Martin Aramco F1 Team",
-        logo: "images/astonmartin.jpg",
+        fullName: "Aston Martin F1 Team",
+        logo: "images/astonmartin.png",
         primaryColor: "#006F62"
     },
     williams: {
@@ -53,7 +53,7 @@ const teams = {
         primaryColor: "#005AFF"
     },
     rb: {
-        fullName: "Visa Cash App RB F1 Team",
+        fullName: "Racing Bulls F1 Team",
         logo: "images/rb.png",
         primaryColor: "#6692FF"
     },
@@ -63,7 +63,7 @@ const teams = {
         primaryColor: "#52E252"
     },
     haas: {
-        fullName: "MoneyGram Haas F1 Team",
+        fullName: "Haas F1 Team",
         logo: "images/haas.png",
         primaryColor: "#B6BABD"
     }

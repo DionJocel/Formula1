@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formula 1 2025</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="f1-logo">
+                <img src="images/f1.png" alt="Formula 1 Logo" class="logo">
+            </div>
+            <h1>F1 Grand Prix Mystery</h1>
+            <p class="subtitle" id="subtitle">Formula 1 2025</p>
+        </header>
+
+        <div class="circuit-selection" id="circuitSelection">
+            <h2>F1 2025 Grand Prix Circuits</h2>
+            <p class="circuit-instruction">Choose your fav circuit</p>
+            <div class="circuits-grid" id="circuitsGrid"></div>
+        </div>
+
+        <div class="main-content" id="mainContent">
+            <div class="left-panel">
+                <div class="game-area">
+                    <div class="revealed-drivers" id="revealedDrivers"></div>
+                </div>
+            </div>
+
+            <div class="right-panel">
+                <div class="controls-panel">
+                    <div class="controls">
+                        <button id="startBtn">Start Investigation</button>
+                        <button id="nextBtn" disabled>Reveal Next Driver</button>
+                        <button id="resetBtn">New Case</button>
+                    </div>
+
+                    <div class="drivers-section">
+                        <h2 class="drivers-grid-title">Formula 1 Drivers Grid 2025</h2>
+                        <div class="drivers-grid" id="driversGrid"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="loading-screen" id="loadingScreen">
+            <div class="loading-content">
+                <div class="loading-logo">
+                    <img src="images/f1.png" alt="Formula 1 Logo" class="logo">
+                </div>
+                <div class="loading-text">
+                    <h2>Traveling to <span id="loadingCircuitName">Circuit</span></h2>
+                </div>
+                <div class="loading-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                    <span class="progress-text">Loading...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
